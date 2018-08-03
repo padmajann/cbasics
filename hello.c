@@ -10,7 +10,7 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    printf("Hello World")
+    printf("Hello World");
 
     return 0;
 }
