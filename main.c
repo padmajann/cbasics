@@ -1,8 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
-    printf("Hello world!\n");
-    return 0;
+int sum=0,n,i,m;
+printf("enter the numbers");
+scanf("%d",&n);
+printf("the numbers are");
+for(i=0;i<=n;i++)
+{
+    scanf("%d",&m);
+    sum=sum+m;
+}
+printf("thesum of n numbers are%d",sum);
 }
